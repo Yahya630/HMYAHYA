@@ -1,0 +1,10 @@
+
+## الملفات
+- `index.html` — واجهة المستخدم.
+- `styles.css` — أنماط الصفحة.
+- `script.js` — منطق تحويل الوحدات والتحقق.
+
+## التقديم
+- أنشئ repository عام باسم `converter`.
+- أضف الملفات أعلاه وادفعها إلى GitHub.
+- أرسل رابط الـ repository إلى khaled@stu.ttu.edu.jo

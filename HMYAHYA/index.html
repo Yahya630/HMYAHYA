@@ -1,0 +1,45 @@
+
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>محول كيلومترات إلى أميال</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container" role="main">
+    <h1>محول الكيلومترات إلى الأميال</h1>
+
+    <form id="converter-form" novalidate>
+      <label for="km-input">أدخل المسافة (كيلومتر):</label>
+      <input id="km-input" name="kilometers" type="number" step="any" min="0" placeholder="مثال: 12.5" required>
+
+      <div class="buttons">
+        <button type="button" id="convert-btn">Convert to Miles</button>
+        <button type="button" id="clear-btn" class="secondary">Clear</button>
+      </div>
+
+      <p id="error" class="error" aria-live="polite"></p>
+
+      <div id="result" class="result" aria-live="polite">
+        
+      </div>
+    </form>
+
+    <section class="notes">
+      <h2>تفاصيل</h2>
+      <ul>
+        <li>طريقة الحساب: miles = kilometers × 0.621371</li>
+        <li>تمت إضافة تحقق من صحة المدخلات ورسائل خطأ ودالة مسح (Clear).</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Prepared for: Khaled (khaled@stu.ttu.edu.jo)</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
